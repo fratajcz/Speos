@@ -3,7 +3,7 @@ from extensions.preprocessing import preprocess_labels
 from scipy.stats import fisher_exact
 
 
-checker = LDBlockChecker(snpfile="/mnt/storage/prs/ldblocks/CAD/CAD_sign_snps.bed")
+checker = LDBlockChecker(snpfile="/mnt/storage/prs/ldblocks/CAD/CAD_sign_snps_5e-8.bed")
 
 checker.build_ldblocks()
 checker.build_genes()

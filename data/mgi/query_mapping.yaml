@@ -6,6 +6,8 @@
     file: "data/mgi/cad_query.txt"
 "cad_only":
     file: "data/mgi/cad_only_query.txt"
+"cad_really_only":
+    file: "data/mgi/cad_really_only_query.txt"
 "heart":
     file: "data/mgi/heart_query.txt"
 "immune_dysregulation":
@@ -22,4 +24,9 @@
     file: "data/mgi/mito_query.txt"
 "uc_only":
     file: "data/mgi/uc_only_query.txt"
-
+"scz_only":
+    file: "data/mgi/scz_query.txt"
+"ra_only":
+    file: "data/mgi/ra_query.txt"
+"alz_only":
+    file: "data/mgi/ad_query.txt"
