@@ -86,15 +86,12 @@ class PreProcessor:
                 tuple(Tensor, Tensor, Tensor): returns input matrix X, ground truth y and adjacency matrix adj as pytorch tensors.
         """
         if not self.graph_is_built:
-            # if graph has not been set up first
             self.build_graph(features)
 
         if features and not self.has_features:
-            # if features arent loaded yet
             self._add_x_features()
 
         if not self.has_labels:
-            # if labels arent loaded yet
             self._add_y_label()
 
         X, y, adj = self.format_for_pygeo()
